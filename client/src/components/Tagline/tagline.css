@@ -1,0 +1,15 @@
+.tagline-container{
+    
+    display: flex;
+    justify-content: center;
+}
+
+.tagline-text{
+    font-family: 'Domine', serif;
+    margin-top: 26px;
+    font-size: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.1;
+}
