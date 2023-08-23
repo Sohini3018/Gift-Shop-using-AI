@@ -1,15 +1,27 @@
 .tagline-container{
     
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .tagline-text{
     font-family: 'Domine', serif;
     margin-top: 26px;
     font-size: 80px;
+    font-weight: 600;
     display: flex;
     flex-direction: column;
     align-items: center;
     line-height: 1.1;
+    background: -webkit-linear-gradient(79deg,#2b0aff, #ff5b8a 49%, #ff5b8a 55%, #fba64b 77%, #f99b52);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.tagline-desc{
+    font-size: 25px;
+    color: #686060;
+    margin-top: 40px;
 }

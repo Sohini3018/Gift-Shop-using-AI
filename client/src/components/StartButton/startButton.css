@@ -1,0 +1,21 @@
+.start-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.start-button button{
+    width: 250px;
+    height: 56px;
+    font-size: 20px;
+    color: #ffffff;
+    background: linear-gradient(50deg, #2b0aff, #e93abf 40%, #f658a8 46%, #f658a8 51%, #f99b52 91%, #f99b52);
+    font-weight: 700;
+    border-radius: 30px;
+    transition: transform 0.3s;
+}
+
+.start-button button:hover{
+    border: 1px solid white;
+    transform: scale(1.05);
+}
