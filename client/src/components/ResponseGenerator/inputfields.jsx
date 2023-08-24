@@ -1,11 +1,8 @@
-import * as React from 'react';
+import React from 'react'
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
-import MenuItem from '@mui/material/MenuItem';
-import './responseGenerator.css';
-
-export default function SelectTextFields({label,options}) {
- 
+import './responseGenerator.css'
+function Inputfields({label}) {
   return (
     <Box
     component="form"
@@ -26,19 +23,14 @@ export default function SelectTextFields({label,options}) {
       <div>
         <p>{label}</p>
         <TextField
-          id="outlined-select-currency"
-          select
           defaultValue={" "}
           className="customSelectField"
           
         >
-          {options.map((option) => (
-            <MenuItem key={option.value} value={option.value}>
-              {option.label}
-            </MenuItem>
-          ))}
         </TextField>
       </div> 
     </Box>
-  );
+  )
 }
+
+export default Inputfields

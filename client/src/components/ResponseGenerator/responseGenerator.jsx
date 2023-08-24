@@ -4,6 +4,7 @@ import inputLabels from './inputLabels'
 import './responseGenerator.css'
 import StartButton from '../HomePage/StartButton/startButton'
 import Output from './output'
+import Inputfields from './inputfields'
 function ResponseGenerator() {
   const [showOutput, setShowOutput] = useState(false);
   const handleOutput =()=>{
@@ -16,6 +17,8 @@ function ResponseGenerator() {
           {inputLabels.map((inputText)=>{
             return <Selector key={inputText.label} label={inputText.label}  options={inputText.options}/>
           })}
+          <Inputfields label={"Recipient's Interests"}/>
+          <Inputfields label={"State the Ocassion"}/>
         </div>
         <StartButton text={"Get Gift Suggestions"} handleButtonClick={handleOutput}/>
         {showOutput && <Output />}

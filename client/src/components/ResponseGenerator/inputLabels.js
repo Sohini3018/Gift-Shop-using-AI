@@ -1,24 +1,36 @@
 const inputLabels = [
     {
-      label : 'Relation',
+      label : "Recipient's Relation",
       options : [
+        {
+          label : 'Spouse',
+          value : 'spouse'
+        },
+        {
+          label : 'Parent',
+          value : 'parent'
+        },
+        {
+          label : 'Child',
+          value : 'child'
+        },
+        {
+          label : 'Sibling',
+          value : 'sibling'
+        },
         {
           label : 'Friend',
           value : 'friend'
         },
         {
-          label : 'Husband',
-          value : 'husband'
-        },
-        {
-          label : 'Wife',
-          value : 'wife'
+          label : 'Co-worker',
+          value : 'co-worker'
         }
+        
       ]
     },
     {
-      label : 'Gender',
-      
+      label : "Recipient's Gender",
       options : [
         {
           label : 'Male',
@@ -31,7 +43,7 @@ const inputLabels = [
       ]
     },
     {
-      label : 'Age',
+      label : "Recipient's Age",
       
       options : [
         {
@@ -41,60 +53,43 @@ const inputLabels = [
         {
           label : '18-24',
           value : '18-24'
+        },
+        {
+          label : '25-34',
+          value : '25-34'
+        },
+        {
+          label : '35-44',
+          value : '35-44'
+        },
+        {
+          label : '45-54',
+          value : '45-54'
+        },
+        {
+          label : '50+',
+          value : '50+'
         }
       ]
     },
     {
-      label : 'interest',
-      
+      label : "Budget",
       options : [
         {
-          label : 'Music',
-          value :'music'
+          label : 'Less than $50',
+          value : 'lessThan50'
         },
         {
-          label : 'Movies',
-          value :'movies'
+          label : '$50-100',
+          value : '50-100'
         },
         {
-          label : 'Sports',
-          value :'sports'
-        }
-      ]
-    },
-    {
-      label : 'Country',
-      
-      options : [
-        {
-          label : 'USA',
-          value : 'usa'
+          label : '$100-200',
+          value : '100-200'
         },
         {
-          label : 'China',
-          value : 'china'
-        },
-        {
-          label : 'Japan',
-          value : 'japan'
-        }
-      ]
-    },
-    {
-      label : 'Country',
-      
-      options : [
-        {
-          label : 'USA',
-          value : 'usa'
-        },
-        {
-          label : 'China',
-          value : 'china'
-        },
-        {
-          label : 'Japan',
-          value : 'japan'
+          label : '$200+',
+          value : '200+'
         }
       ]
     },

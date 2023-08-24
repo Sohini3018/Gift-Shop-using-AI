@@ -6,7 +6,8 @@
 }
 .container p{
     font-family: 'Poppins', sans-serif;
-    color: #645353;
+    color: #4a3e3e;
+    font-weight: 600;
 }
 .desc{ 
     font-size: 25px;
@@ -22,9 +23,24 @@
 
 .customSelectField {
     width: 50ch;
-    background-color: #ffe9e9;
+    background-color: #ffdecb;
 }
 
+.customSelectField .MuiSvgIcon-root{
+    color: rgb(225 44 44 / 54%);
+}
+
+.MuiList-root{
+    background-color: #ffe6d5;
+}
+
+.MuiList-root .MuiButtonBase-root{
+    font-family: 'Poppins', sans-serif;
+}
+
+.MuiFormControl-root .MuiInputBase-root{
+    font-family: 'Poppins', sans-serif;
+}
 
 .output-box{
     background-color: #fefefe;
