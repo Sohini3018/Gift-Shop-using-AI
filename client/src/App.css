@@ -3,14 +3,9 @@
 .app-container{
     background: linear-gradient(to top right, #faf5f5, #fbeee0);
     width: 100%;
-    height: 100vh;
+    height: 150vh;
+    /* 92vh */
 }
 
-/* .circle{
-    width: 450px;
-    height: 450px;
-    background: linear-gradient(to bottom, #fa39ad 40%,#fe6c4c 50%);
-    filter: blur(100px);
-} */
 
 

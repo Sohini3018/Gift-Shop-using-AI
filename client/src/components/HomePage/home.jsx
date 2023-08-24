@@ -1,14 +1,16 @@
 import React from 'react'
 import Tagline from './Tagline/tagline';
 import StartButton from './StartButton/startButton';
-function Home(props) {
-    const handleResponsePage = ()=>{
-        props.setShowResponse(true);
-    }
+import {useNavigate} from 'react-router-dom';
+function Home() {
+  const navigate = useNavigate();
+  const handleButtonClick = () => { 
+    navigate('/response'); 
+  }
   return (
     <div>
         <Tagline />
-        <StartButton handleResponsePage={handleResponsePage}/>
+        <StartButton text={"Click to Start"} handleButtonClick={handleButtonClick}/>
     </div>
   )
 }
