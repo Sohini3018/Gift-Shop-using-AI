@@ -1,8 +1,10 @@
 import React from 'react'
 import Box from '@mui/material/Box';
+import Typography  from '@mui/material/Typography';
 import TextField from '@mui/material/TextField';
 import './responseGenerator.css'
-function Inputfields({label}) {
+function Inputfields({label,handleChange}) {
+  
   return (
     <Box
     component="form"
@@ -21,13 +23,14 @@ function Inputfields({label}) {
     autoComplete="off"
     >
       <div>
-        <p>{label}</p>
+        <Typography>{label}</Typography>
         <TextField
-          defaultValue={" "}
           className="customSelectField"
-          
+          name={label}
+          onChange={handleChange}
         >
         </TextField>
+        
       </div> 
     </Box>
   )

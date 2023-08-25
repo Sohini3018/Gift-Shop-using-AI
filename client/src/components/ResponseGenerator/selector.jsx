@@ -1,10 +1,11 @@
 import * as React from 'react';
 import Box from '@mui/material/Box';
+import Typography  from '@mui/material/Typography';
 import TextField from '@mui/material/TextField';
 import MenuItem from '@mui/material/MenuItem';
 import './responseGenerator.css';
 
-export default function SelectTextFields({label,options}) {
+export default function SelectTextFields({label,options,handleChange}) {
  
   return (
     <Box
@@ -24,13 +25,13 @@ export default function SelectTextFields({label,options}) {
     autoComplete="off"
     >
       <div>
-        <p>{label}</p>
+        <Typography>{label}</Typography>
         <TextField
-          id="outlined-select-currency"
           select
-          defaultValue={" "}
           className="customSelectField"
-          
+          defaultValue=""
+          name={label}
+          onChange={handleChange}
         >
           {options.map((option) => (
             <MenuItem key={option.value} value={option.value}>
