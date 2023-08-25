@@ -1,12 +1,13 @@
 import React from 'react'
 import './navbar.css'
+import Drawer from './drawer'
 function Navbar() {
   return (
     <div className='navbar-container'>
-        <div className='left-navbar'>Gift Shop</div>
+        <Drawer />
         <div className='right-navbar'>
-            <button>My Gifts</button>
-            <button>FAQ</button>
+            <button>Help</button>
+            <button>Contact Us</button>
         </div>
     </div>
   )

@@ -12,15 +12,15 @@ function Inputs() {
           [name]: value === "__invalid_default_value__" ? "" : value,
         }));
       };
-  return (
-    <div className='input-field'>
+    return (
+      <div className='input-field'>
           {inputLabels.map((inputText)=>{
             return <Selector key={inputText.label} label={inputText.label}  options={inputText.options} handleChange={handleChange}/>
           })}
           <Inputfields label={"Recipient's Interests"} handleChange={handleChange}/>
           <Inputfields label={"State the Ocassion"} handleChange={handleChange}/>
           
-        </div>
+      </div>
   )
 }
 
