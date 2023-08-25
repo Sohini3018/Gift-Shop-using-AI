@@ -1,12 +1,10 @@
-import * as React from 'react';
+import React from 'react'
 import Box from '@mui/material/Box';
 import Typography  from '@mui/material/Typography';
 import TextField from '@mui/material/TextField';
-import MenuItem from '@mui/material/MenuItem';
-import './responseGenerator.css';
-
-export default function SelectTextFields({label,options,handleChange}) {
- 
+import '../responseGenerator.css'
+function Inputfields({label,handleChange}) {
+  
   return (
     <Box
     component="form"
@@ -27,19 +25,15 @@ export default function SelectTextFields({label,options,handleChange}) {
       <div>
         <Typography>{label}</Typography>
         <TextField
-          select
           className="customSelectField"
-          defaultValue=""
           name={label}
           onChange={handleChange}
         >
-          {options.map((option) => (
-            <MenuItem key={option.value} value={option.value}>
-              {option.label}
-            </MenuItem>
-          ))}
         </TextField>
+        
       </div> 
     </Box>
-  );
+  )
 }
+
+export default Inputfields
