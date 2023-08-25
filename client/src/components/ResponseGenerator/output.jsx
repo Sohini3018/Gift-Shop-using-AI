@@ -1,8 +1,8 @@
 import React from 'react'
 import './responseGenerator.css'
-function Output({inputText}) {
+function Output() {
   return (
-    <div className='output-box'>{inputText}</div>
+    <div className='output-box'></div>
   )
 }
 

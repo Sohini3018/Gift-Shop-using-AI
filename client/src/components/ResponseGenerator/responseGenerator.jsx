@@ -12,11 +12,11 @@ function ResponseGenerator() {
   return (
     <div className='container'>
         <p className='desc'>Describe your loved one's interests</p>
-        <Inputs />
-        <StartButton text={"Get Gift Suggestions"} handleButtonClick={handleOutput}/>
-        {showOutput && <Output />}
-        
+          <Inputs />
+          <StartButton text={"Get Gift Suggestions"} handleButtonClick={handleOutput}/>
+          {showOutput && <Output />}
     </div>
+    
   )
 }
 

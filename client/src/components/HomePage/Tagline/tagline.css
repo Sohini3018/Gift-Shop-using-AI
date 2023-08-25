@@ -8,7 +8,7 @@
 .tagline-text{
     font-family: 'Domine', serif;
     margin-top: 26px;
-    font-size: 80px;
+    font-size: 5vmax;
     font-weight: 600;
     display: flex;
     flex-direction: column;
@@ -21,7 +21,7 @@
 }
 
 .tagline-desc{
-    font-size: 25px;
+    font-size: 2vmax;
     color: #686060;
     margin-top: 40px;
 }

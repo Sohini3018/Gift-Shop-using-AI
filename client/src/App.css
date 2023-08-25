@@ -1,23 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600;700&family=Poppins&display=swap');
 
+.main-container{
+  min-height: 100vh;
+}
 .app-container {
     background: linear-gradient(to top right, #f1c593, #f9d6d3);
-    width: 100%;
-    min-height: 100vh;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden; /* Hide overflow content */
+    justify-content: space-evenly;
+    min-height: calc(100vh - 60px);
+    overflow-y: auto;
   }
-  
-  @media (max-height: 800px), (max-width: 500px) {
-    .app-container {
-      flex-direction: row;
-      align-items: flex-start;
-      justify-content: flex-start;
-      overflow-y: scroll;
-    }
-  }
-
 

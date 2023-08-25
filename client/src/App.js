@@ -6,16 +6,21 @@ import Home from './components/HomePage/home';
 
 function App() {
   return (
+    <div className='main-container'>
     <Router>
+      
       <Navbar />
+      
       <div className="app-container">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/response" element={<ResponseGenerator />} />
         </Routes>
       </div>
+      
   
-    </Router>);
+    </Router>
+    </div>);
 }
 
 export default App;
