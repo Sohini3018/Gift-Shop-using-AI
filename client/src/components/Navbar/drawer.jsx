@@ -1,4 +1,5 @@
 import * as React from 'react';
+import {useNavigate} from 'react-router-dom';
 import Box from '@mui/material/Box';
 import Drawer from '@mui/material/Drawer';
 import Button from '@mui/material/Button';
@@ -6,6 +7,7 @@ import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
 import ListItemText from '@mui/material/ListItemText';
+import MenuIcon from '@mui/icons-material/Menu';
 import { styled } from '@mui/material';
 
 const LogoButton = styled(Button)`
@@ -14,7 +16,10 @@ const LogoButton = styled(Button)`
   font-size: 1.1rem;
   font-family: 'Poppins', sans-serif;
 `
+
 export default function TemporaryDrawer() {
+
+  const navigate = useNavigate();
   const [state, setState] = React.useState({
     left: false,
   });
@@ -50,7 +55,8 @@ export default function TemporaryDrawer() {
     <div>
       {['left'].map((anchor) => (
         <React.Fragment key={anchor}>
-          <LogoButton onClick={toggleDrawer(anchor, true)}>Gifty</LogoButton>
+          <LogoButton onClick={toggleDrawer(anchor, true)}><MenuIcon/></LogoButton>
+          <LogoButton onClick={()=>{navigate('/')}} style={{fontSize:"2vmax", color:"gray",}}>Gifty</LogoButton>
           <Drawer
             anchor={anchor}
             open={state[anchor]}

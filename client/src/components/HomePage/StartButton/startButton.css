@@ -1,13 +1,13 @@
 .start-button{
     display: flex;
     justify-content: center;
-    margin-top: 35px;
+    margin-top: 80px;
 }
 
 .start-button button{
-    width: 250px;
-    height: 56px;
-    font-size: 20px;
+    width: 15vmax;
+    height: 5vmax;
+    font-size: 1.5vmax;
     color: #ffffff;
     background: linear-gradient(50deg, #2b0aff, #e93abf 40%, #f658a8 46%, #f658a8 51%, #f99b52 91%, #f99b52);
     font-weight: 700;

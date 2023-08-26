@@ -8,11 +8,9 @@ function App() {
   return (
     <div className='main-container'>
     <Router>
-      
-      <Navbar />
-      
+    <Navbar />
       <div className="app-container">
-        <Routes>
+        <Routes>   
           <Route path="/" element={<Home />} />
           <Route path="/response" element={<ResponseGenerator />} />
         </Routes>

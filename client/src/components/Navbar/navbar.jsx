@@ -4,10 +4,13 @@ import Drawer from './drawer'
 function Navbar() {
   return (
     <div className='navbar-container'>
-        <Drawer />
+      <div className='left-navbar'>
+      <Drawer />
+      </div>
+      
         <div className='right-navbar'>
-            <button>Help</button>
-            <button>Contact Us</button>
+            <a href='#abt-section'>About Us</a>
+            <a href='#cnt-section'>Contact Us</a>
         </div>
     </div>
   )

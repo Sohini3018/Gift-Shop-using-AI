@@ -1,19 +1,32 @@
-.navbar-container{
+.navbar-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     font-family: 'Poppins', sans-serif;
-    background-color: rgb(255 229 203);
+    background-color: rgb(255, 229, 203);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 8px 60px;
-    height: 60px;
-}
-
-.right-navbar{
+    padding: 8px 25px;
+    height: 70px;
+    z-index: 100; 
+  }
+  
+  .left-navbar {
     display: flex;
     justify-content: space-between;
-    width: 10rem;
-}
-
-/* .MuiPaper-root-MuiDrawer-paper{
-    background-color: #ffe6d5;
-} */
+    width: 20rem;
+  }
+  
+  .right-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    width: 15rem;
+    
+  }
+  
+  .right-navbar a{
+    font-size: 1.2rem;
+  }

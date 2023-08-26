@@ -3,12 +3,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 50px;
 }
 
 .tagline-text{
     font-family: 'Domine', serif;
     margin-top: 26px;
-    font-size: 5vmax;
+    font-size: 4.5vmax;
     font-weight: 600;
     display: flex;
     flex-direction: column;
