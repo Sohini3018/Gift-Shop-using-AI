@@ -19,7 +19,6 @@ function Inputs() {
           })}
           <Inputfields label={"Recipient's Interests"} handleChange={handleChange}/>
           <Inputfields label={"State the Ocassion"} handleChange={handleChange}/>
-          
       </div>
   )
 }
