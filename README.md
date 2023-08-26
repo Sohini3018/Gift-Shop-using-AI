@@ -2,6 +2,28 @@
 
 Gifty is a user-friendly website that uses AI to generate personalized gift ideas based on user input. This documentation provides an overview of the front end of the Gifty website, including its features, challenges faced during development, and how to use it.
 
+## Screenshots
+
+# Home Page
+
+![Screenshot (14)](https://github.com/Sohini3018/Gift-Shop-using-AI/assets/113935740/67065707-ccef-437d-bdbd-a127be54c916)
+
+# About Section
+
+![Screenshot (15)](https://github.com/Sohini3018/Gift-Shop-using-AI/assets/113935740/a0ebae8b-acc9-44fc-9028-40fd5f266ee1)
+
+# Drawer Section
+
+![Screenshot (17)](https://github.com/Sohini3018/Gift-Shop-using-AI/assets/113935740/9c2f91c1-5063-473a-9a1f-634e616422de)
+
+# User Input Section
+
+![Screenshot (18)](https://github.com/Sohini3018/Gift-Shop-using-AI/assets/113935740/a8c0c43b-8501-4e07-8ed5-e7946ee889ca)
+
+# Output Box
+
+![Screenshot (19)](https://github.com/Sohini3018/Gift-Shop-using-AI/assets/113935740/e49f9404-af67-4b36-9b47-1c5e0c85f1f7)
+
 ## Features
 
 ### 1. Dynamic Input Selection
