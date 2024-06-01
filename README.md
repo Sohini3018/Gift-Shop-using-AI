@@ -1,43 +1,67 @@
-# Gifty: AI-Powered Gift Idea Generator
+# Calorie Meter: A Calorie Predictor App Powered By MindsDB
 
-Gifty is a user-friendly website that uses AI to generate personalized gift ideas based on user input. This documentation provides an overview of the front end of the Gifty website, including its features, challenges faced during development, and how to use it.
+Calorie Meter is an user frienfly website that accurately predictis Your Calories with MindsDB and Custom Data Insights!
 
 ## Screenshots
 
 # Home Page
 
-![Screenshot (14)](https://github.com/Sohini3018/Gift-Shop-using-AI/assets/113935740/67065707-ccef-437d-bdbd-a127be54c916)
-
-# About Section
-
-![Screenshot (15)](https://github.com/Sohini3018/Gift-Shop-using-AI/assets/113935740/a0ebae8b-acc9-44fc-9028-40fd5f266ee1)
-
-# Drawer Section
-
-![Screenshot (17)](https://github.com/Sohini3018/Gift-Shop-using-AI/assets/113935740/9c2f91c1-5063-473a-9a1f-634e616422de)
+![Screenshot (47)](https://github.com/Sohini3018/calorie-meter-mindsdb/assets/113935740/65fd0e3e-6749-4652-81e4-b853e24fda0a)
 
 # User Input Section
 
-![Screenshot (18)](https://github.com/Sohini3018/Gift-Shop-using-AI/assets/113935740/a8c0c43b-8501-4e07-8ed5-e7946ee889ca)
+![Screenshot (46)](https://github.com/Sohini3018/calorie-meter-mindsdb/assets/113935740/f203493b-5467-49c3-8053-c00915af067e)
 
-# Output Box
+### Key Features:
 
-![Screenshot (19)](https://github.com/Sohini3018/Gift-Shop-using-AI/assets/113935740/e49f9404-af67-4b36-9b47-1c5e0c85f1f7)
+- **Accurate Calorie Predictions:** Uses advanced machine learning models from MindsDB to predict calorie counts with high accuracy.
+- **Custom Data Integration:** Upload your own dataset to personalize the calorie prediction model to fit your specific needs.
+- **User-Friendly Interface:** Simple and intuitive UI to input data and get immediate calorie predictions.
+- **Real-Time Predictions:** Get instant predictions as soon as you input your data, powered by the fast and efficient MindsDB engine.
+- **Detailed Insights:** Provides comprehensive insights and analysis based on the predictions to help you make informed dietary choices.
+- **Open Source:** Fully open source, allowing you to customize and extend the app as per your requirements.
 
-## Features
+### Getting Started
 
-### 1. Dynamic Input Selection
-The website allows users to select various input options such as the recipient's relation, gender, age, budget, interests, and occasion. The selections dynamically update as users make choices.
+1. **Clone the Repository:**
+    ```bash
+    git clone https://github.com/Sohini3018/calorie-meter-mindsdb.git
+    cd calorie-meter
+    ```
 
-### 2. Responsive Design
-The front end is designed to be responsive, ensuring a seamless user experience across different devices and screen sizes.
+2. **Install Dependencies:**
+    ```bash
+      npm install
+    ```
+3. **Install the latest version of MindsDB Docker Image and Docker Engine must installed on your local machine.**
+   
+4. **Download the dataset from kaggle:**
+    ```bash
+      https://www.kaggle.com/datasets/vaishnavivenkatesan/food-and-their-calories
+    ```
 
-### 3. User-Friendly Interface
-The interface is thoughtfully designed for ease of use, ensuring that users can effortlessly navigate through the input options and generate gift suggestions.
+5. **Run this command to start MindsDB in Docker:**
+    ```bash
+    docker run -p 47334:47334 -p 47335:47335 mindsdb/mindsdb
+    ```
+6. Go to http://localhost:47334 & select the option to upload the data through files (.csv).
+7. Import the dataset & give food_table as the name of the table in the datasource name field.
+8. After you press save , it will import data to files database and it had created home_table in the files.
+9. Once table is created , you have to create & train the model with the data.
 
-### 4. Integration with AI APIs
-Gifty is designed to easily integrate with external AI APIs, enabling the incorporation of advanced AI algorithms for enhanced gift suggestion accuracy.
+### Powered by MindsDB
 
+This app utilizes MindsDB to seamlessly integrate machine learning capabilities. MindsDB allows us to train and deploy predictive models efficiently, ensuring accurate and real-time predictions.
+
+For more information on MindsDB, visit [MindsDB Documentation](https://docs.mindsdb.com/what-is-mindsdb).
+
+### Contributions
+
+We welcome contributions from the community. Please feel free to submit a pull request or open an issue if you have any suggestions or enhancements.
+
+---
+
+**Enjoy using Calorie Meter to make smarter dietary choices with the power of MindsDB!**
 
 ## Challenges Faced
 
@@ -53,27 +77,18 @@ Maintaining a consistent design throughout the website was challenging, especial
 
 ## Usage
 
-1. Clone the Repository: `git clone https://github.com/Sohini3018/Gift-Shop-using-AI`
-2. Navigate to the Project Directory: `cd Gift-Shop-using-AI`
-3. Navigate to the Project folder: `cd client`
-4. Install Dependencies
-5. Start the React App: `npm start`
-6. Visit the Gifty Website:
+1. Visit the Gifty Website:
 Open your web browser and navigate to [http://localhost:3000](http://localhost:3000).
-7. You will see a start button on the homepage. Click on the start button.
-8. Select the recipient's relation, gender, age, budget, interests, and occasion.
-9. Click the "Get Gift Suggestions" button to generate personalized gift ideas.
-10. View the output box to see the AI-generated gift suggestions.
+2. You will see a start button on the homepage. Click on the start button.
+8. Mention the Food and Servings.
+9. Click the "Calculate Calories" button to generate the estimation.
+10. View the output box to see the predicted calorie count.
 
 ## Future Enhancements
 
 - **User Accounts**: Implement user accounts to save preferences and gift ideas.
-- **Extended Input Options**: Provide more input options to refine gift suggestions.
-- **Customized Output**: Allow users to customize and edit generated gift ideas.
-- **Integration with E-Commerce**: Integrate with e-commerce platforms for direct gift purchases.
+- **Extended Input Options**: Provide more input options to refine prediction.
+- **Improved Accuracy**: Will work on the improvement of the model used.
 
-## Conclusion
-
-The Gifty website front end brings the power of AI to help users find perfect gift ideas. It offers a user-friendly experience, responsive design, and stylish visual elements to enhance the overall user journey.
 
 For any inquiries or feedback, contact me at [sohinismail@gmail.com](mailto:sohinismail@gmail.com).
