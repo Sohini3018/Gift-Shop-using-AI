@@ -55,7 +55,7 @@ app.post("/predict", async (req, res) => {
 
     const prediction = await foodModel.query(queryOptions);
 
-    console.log(prediction);
+    // console.log(prediction);
     // Accessing the predicted value, adjust if necessary based on actual response structure
     const foodCalories = prediction.data.calories;
 

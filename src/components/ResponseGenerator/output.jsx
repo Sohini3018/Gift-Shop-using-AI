@@ -9,7 +9,7 @@ function Output({ data, isLoading }) {
       {isLoading ? (
         <div className='loading'>
           
-          <p>Estimation is Progress...<CircularProgress /></p>
+          <p>Estimation in Progress...<CircularProgress /></p>
         </div>
       ) : (
         <div className='gift-ideas'>
