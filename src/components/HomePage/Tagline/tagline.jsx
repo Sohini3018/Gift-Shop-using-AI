@@ -4,12 +4,12 @@ function Tagline() {
   return (
     <div className='tagline-container'>
         <div className='tagline-text'>
-          <p>Unwrap joy with</p> 
-          <p>AI-Enhanced </p>
-          <p>Gifting Experiences</p>
+          <p>Count your Calorie intakes</p> 
+          <p>with Calorie Meter</p>
+          <p>easily</p>
         </div>
         <div className='tagline-desc'>
-          <p>Click to Begin Your AI-Powered Gifting Journey!</p>
+          <p>Click to Begin a Healthy Journey!</p>
         </div>
     </div>
   )

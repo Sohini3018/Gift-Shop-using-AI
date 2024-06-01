@@ -9,7 +9,7 @@ function Navbar() {
       </div>
       
         <div className='right-navbar'>
-            <a href='#abt-section'>About Us</a>
+            {/* <a href='#abt-section'>About Us</a> */}
             <a href='#cnt-section'>Contact Us</a>
         </div>
     </div>

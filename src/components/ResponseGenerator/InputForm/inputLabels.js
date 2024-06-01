@@ -1,96 +1,149 @@
 const inputLabels = [
     {
-      label : "Recipient's Relation",
+      label : "Brand",
       options : [
         {
-          label : 'Spouse',
-          value : 'spouse'
+          label : 'New Balance',
+          value : 'New Balance'
         },
         {
-          label : 'Parent',
-          value : 'parent'
+          label : 'Nike',
+          value : 'Nike'
         },
         {
-          label : 'Child',
-          value : 'child'
+          label : 'Adidas',
+          value : 'Adidas'
         },
         {
-          label : 'Sibling',
-          value : 'sibling'
+          label : 'Reebok',
+          value : 'Reebok'
         },
         {
-          label : 'Friend',
-          value : 'friend'
+          label : 'Puma',
+          value : 'Puma'
         },
         {
-          label : 'Co-worker',
-          value : 'co-worker'
+          label : 'Under Armour',
+          value : 'Under Armour'
         }
         
       ]
     },
     {
-      label : "Recipient's Gender",
+      label : "Category",
       options : [
         {
-          label : 'Male',
-          value :'male'
+          label : 'Dress',
+          value :'Dress'
         },
         {
-          label : 'Female',
-          value : 'female'
-        }
+          label : 'Jeans',
+          value : 'Jeans'
+        },
+        {
+          label : 'Shoes',
+          value : 'Shoes'
+        },
+        {
+          label : 'Sweater',
+          value : 'Sweater'
+        },
+        {
+          label : 'T-shirt',
+          value : 'T-shirt'
+        },
+        {
+          label : 'Jacket',
+          value : 'Jacket'
+        },
       ]
     },
     {
-      label : "Recipient's Age",
+      label : "Color",
       
       options : [
         {
-          label : 'Under 18',
-          value : 'under18'
+          label : 'Red',
+          value : 'Red'
         },
         {
-          label : '18-24',
-          value : '18-24'
+          label : 'Green',
+          value : 'Green'
         },
         {
-          label : '25-34',
-          value : '25-34'
+          label : 'Yellow',
+          value : 'Yellow'
         },
         {
-          label : '35-44',
-          value : '35-44'
+          label : 'White',
+          value : 'White'
         },
         {
-          label : '45-54',
-          value : '45-54'
+          label : 'Black',
+          value : 'Black'
         },
         {
-          label : '50+',
-          value : '50+'
+          label : 'Blue',
+          value : 'Blue'
         }
       ]
     },
     {
-      label : "Budget",
+      label : "Size",
       options : [
         {
-          label : 'Less than $50',
-          value : 'lessThan50'
+          label : 'XS',
+          value : 'XS'
         },
         {
-          label : '$50-100',
-          value : '50-100'
+          label : 'S',
+          value : 'S'
         },
         {
-          label : '$100-200',
-          value : '100-200'
+          label : 'M',
+          value : 'M'
         },
         {
-          label : '$200+',
-          value : '200+'
-        }
+          label : 'L',
+          value : 'L'
+        },
+        {
+          label : 'XL',
+          value : 'XL'
+        },
+        {
+          label : 'XXL',
+          value : 'XXL'
+        },
+      ]
+    },
+    {
+      label : "Material",
+      options : [
+        {
+          label : 'Nylon',
+          value : 'Nylom'
+        },
+        {
+          label : 'Silk',
+          value : 'Silk'
+        },
+        {
+          label : 'Wool',
+          value : 'Wool'
+        },
+        {
+          label : 'Cotton',
+          value : 'Cotton'
+        },
+        {
+          label : 'Polyester',
+          value : 'Polyester'
+        },
+        {
+          label : 'Denim',
+          value : 'Denim'
+        },
       ]
     },
   ]

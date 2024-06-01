@@ -40,7 +40,7 @@ export default function TemporaryDrawer() {
       onKeyDown={toggleDrawer(anchor, false)}
     >
       <List style={{minHeight:"100vh"}}>
-        {['My Gifts', 'Wishlist', 'FAQ'].map((text) => (
+        {['Count Calories', 'About', 'FAQ'].map((text) => (
           <ListItem key={text} disablePadding>
             <ListItemButton>
               <ListItemText primary={text} />
@@ -56,7 +56,7 @@ export default function TemporaryDrawer() {
       {['left'].map((anchor) => (
         <React.Fragment key={anchor}>
           <LogoButton onClick={toggleDrawer(anchor, true)}><MenuIcon/></LogoButton>
-          <LogoButton onClick={()=>{navigate('/')}} style={{fontSize:"2vmax", color:"gray",}}>Gifty</LogoButton>
+          <LogoButton onClick={()=>{navigate('/')}} style={{fontSize:"2vmax", color:"gray",}}>Calorie Meter</LogoButton>
           <Drawer
             anchor={anchor}
             open={state[anchor]}

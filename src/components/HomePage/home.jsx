@@ -13,7 +13,7 @@ function Home() {
     <div>
         <Tagline />
         <StartButton text={"Click to Start"} handleButtonClick={handleButtonClick}/>
-        <AboutUs />
+        {/* <AboutUs /> */}
         <ContactUs />
     </div>
   )
