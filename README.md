@@ -2,6 +2,20 @@
 
 Calorie Meter is an user frienfly website that accurately predictis Your Calories with MindsDB and Custom Data Insights!
 
+### Loom Demo
+
+Check out this demo to see Calorie Meter in action:
+
+<div>
+    <a href="https://www.loom.com/share/ba197e8a88a74b2ab26222312e20a085">
+      <p>Calorie Meter Project Demo - Watch Video</p>
+    </a>
+    <a href="https://www.loom.com/share/ba197e8a88a74b2ab26222312e20a085">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/ba197e8a88a74b2ab26222312e20a085-with-play.gif">
+    </a>
+  </div>
+
+
 ## Screenshots
 
 # Home Page
